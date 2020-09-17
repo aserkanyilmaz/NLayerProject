@@ -17,7 +17,7 @@ namespace NLayerProject.Core.Models
         public int categoryId { get; set; }
 
         public bool isDeleted { get; set; }
-
+        
         public string innerBarcode { get; set; }
 
         public virtual Category Category { get; set; }
